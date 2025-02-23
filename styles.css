@@ -47,7 +47,15 @@ img {
 }
 
 .image-container {
-    border: 5px solid green
+    display: flex;
+    padding: 100px;
+    border: 5px solid green;
+    gap: 40px;
+}
+
+img {
+    width: 100px;
+    height: fit-content;
 }
 
 ul {
