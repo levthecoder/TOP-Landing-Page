@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+.header {
+    display: flex;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #F9FAF8;  
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.main {
+    font-size: 25px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 16px;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+    width: 125px;
+}
