@@ -53,6 +53,10 @@ img {
     gap: 40px;
 }
 
+.image-item {
+    border: 2px solid orange;
+}
+
 img {
     width: 100px;
     height: fit-content;
