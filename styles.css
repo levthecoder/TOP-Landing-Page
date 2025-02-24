@@ -45,6 +45,11 @@ img {
     gap: 32px;
 }
 
+.main img {
+    display: flex;
+    flex: 1;
+}
+
 .left-content {
     flex: 1;
     display: flex;
@@ -56,6 +61,7 @@ img {
 
 .image-container {
     display: flex;
+    justify-content: center;
     padding: 0 150px;
     border: 5px solid green;
     gap: 40px;
@@ -63,6 +69,11 @@ img {
 
 .image-item {
     border: 2px solid orange;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -70,8 +81,38 @@ img {
     height: fit-content;
 }
 
+.image-item img {
+    height: 100px;
+    width: 150px;
+}
+
 h2 {
     text-align: center;
+}
+
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.copy-footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
 }
 
 ul {
